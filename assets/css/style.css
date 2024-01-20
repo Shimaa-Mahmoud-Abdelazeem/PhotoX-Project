@@ -1,0 +1,100 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* header */
+header {
+    height: 100vh;
+    background: linear-gradient(rgba(0, 0, 0, .4), rgba(0, 0, 0, .5)), url('../../images/header-img.jpeg') no-repeat center center /cover;
+}
+
+.active-item {
+    color: rgb(84, 163, 228) !important;
+}
+
+.nav-menu {
+    background: linear-gradient(rgba(0, 0, 0, .3), rgba(0, 0, 0, .5));
+    padding: 30px;
+    transition: all .7s;
+    user-select: none;
+}
+
+.menu-item {
+    font-size: 13px;
+    letter-spacing: 1px;
+    transition: color .5s;
+}
+
+.menu-item:hover {
+    color: rgb(84, 163, 228) !important;
+}
+
+.line {
+    width: 23px;
+    height: 3px;
+    margin: 5px;
+    transition: all .5s;
+}
+
+.banner {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 80%;
+
+}
+
+/* End Header */
+/* Mission */
+/* Customers */
+.mission,
+.customers {
+    background-color: #11191A;
+}
+
+.underline {
+    height: 5px;
+    width: 25vh;
+    border-bottom: 6px solid white;
+    margin: auto;
+}
+
+/* End Mission */
+/* Collection */
+.card-shadow {
+    box-shadow: 5px 10px 20px #363636;
+}
+
+.card-heading {
+    position: absolute;
+    top: 70%;
+    right: 0;
+    background-color: rgb(19, 18, 18);
+    opacity: .7;
+    font-size: 14px;
+    letter-spacing: 1.5px;
+    width: 70%;
+    cursor: pointer;
+    transition: all .5s;
+}
+
+.card-heading:hover {
+    opacity: 1;
+}
+
+/*End Collection */
+/* Gallary */
+.underline-gray {
+    height: 5px;
+    width: 25vh;
+    border-bottom: 6px solid gray;
+    margin: auto;
+}
+
+.gall-list-item {
+    cursor: pointer;
+    user-select: none;
+}
+
+/* End Gallary */
